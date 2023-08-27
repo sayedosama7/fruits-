@@ -1,0 +1,336 @@
+/* start global  */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+}
+
+/* End global  */
+
+/* start header  */
+header {
+    background: linear-gradient(rgba(87, 212, 98, 0.493), rgba(0, 0, 0, 0.76)), url(../images/slider-img.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+header h1 {
+    color: #fbd700;
+    text-align: center;
+    padding-top: 15%;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+/* End header  */
+/* start nav  */
+.navbar {
+    background-color: #252525 !important;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -35px;
+    border-radius: 8px;
+}
+
+.navbar-brand {
+    color: #fff;
+    padding-left: 10px;
+}
+
+.navbar-brand:hover,
+.navbar-brand-icon:hover {
+    color: #fff;
+}
+
+.navbar-brand-icon {
+    color: #fff;
+    padding-right: 10px;
+}
+
+.nav-link {
+    color: #fbd700;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+.navbar-toggler i {
+    color: #fbd700;
+}
+
+.navbar-toggler {
+    border-color: #fbd700;
+}
+
+.navbar-toggler:hover {
+    border-color: #fff;
+}
+
+.navbar-toggler:hover i {
+    color: #fff;
+
+}
+
+@media only screen and (max-width:992px) {
+    .navbar {
+        margin-top: -420px;
+    }
+
+    header h1 {
+        display: none;
+    }
+}
+
+/* End nav  */
+
+/* start fruit shop  */
+.fruit-shop h1 {
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.fruit-shop p {
+    margin: 20px 0;
+    font-weight: bolder;
+    color: #252525c7;
+}
+
+.fruit-shop button {
+    display: block;
+    margin: auto;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #252525;
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+@media only screen and (max-width:992px) {
+    .fruit-shop button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .fruit-shop p {
+        margin: 0px 0 250px;
+        color: #fff;
+    }
+
+    .fruit-shop h1 {
+        font-size: 40px;
+        font-weight: bolder;
+        color: #fff;
+        margin-top: 80px;
+    }
+}
+
+/* End fruit shop  */
+
+/* start about  */
+
+.about-img {
+    background-color: #ccc;
+    height: 450px;
+    position: relative;
+}
+
+.about-img img {
+    width: 100%;
+    position: absolute;
+    top: 35px;
+    left: 40px;
+    height: 380px;
+}
+
+.about-caption {
+    margin-top: 12%;
+    padding: 0 30px;
+}
+
+.about-caption h2 {
+    font-size: 30px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.about-caption p {
+    color: #252525c7;
+    line-height: 1.5;
+}
+
+.about-caption button {
+    padding: 15px 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #252525;
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+@media only screen and (max-width:992px) {
+    .about-caption button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (max-width:576px) {
+    .about-img {
+        height: 385px;
+        width: 85%;
+        margin: auto;
+    }
+
+    .about-img img {
+        height: 320px;
+        width: 100%;
+        top: 35px;
+        left: 25px;
+    }
+}
+
+/* End about  */
+
+/* start our-fruit */
+.our-fruit h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    color: #fbd700;
+    background-color: #252525;
+    padding: 10px 0;
+}
+
+.our-fruit img {
+    margin: auto;
+    display: block;
+}
+
+/* End our-fruit */
+
+/* start Testimonial  */
+.Testimonial h2 {
+    font-size: 30px;
+    font-weight: 600;
+    background-color: #252525;
+    color: #fbd700;
+    padding: 10px 0;
+}
+
+.Testimonial h4,
+h6 {
+    color: #252525c7;
+    font-size: 20px;
+}
+
+.Testimonial p {
+    width: 500px;
+    margin: auto;
+    color: #252525c7;
+}
+
+.Testimonial .icons img {
+    width: 20px;
+    height: 15px
+}
+
+@media only screen and (max-width:992px) {
+    .Testimonial p {
+        width: 200px;
+    }
+
+    .Testimonial h2 {
+        font-size: 25px;
+    }
+}
+
+/* End Testimonial  */
+
+/* start contact  */
+.contact {
+    background-color: #ccc;
+    padding-top: 50px;
+}
+
+.contact h1 {
+    font-weight: 600;
+    background-color: #252525;
+    color: #fbd700;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact form {
+    width: 80%;
+    margin: auto;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px rgba(85, 83, 83, 0.068), -2px -2px rgba(85, 83, 83, 0.068);
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto;
+}
+
+.contact form textarea {
+    height: 80px;
+}
+
+.contact form input[type="submit"] {
+    border: none;
+    border-radius: 5px;
+    background-color: #fd9e2e;
+    color: #fff;
+    font-size: 20px;
+    width: 180px;
+}
+
+.contact form input:focus,
+.contact form textarea:focus {
+    outline: 1px solid #fbd700;
+}
+
+.contact form input::placeholder,
+.contact form textarea::placeholder {
+    font-size: 15px;
+}
+
+@media only screen and (max-width:576px) {
+    .contact h1 {
+        font-size: 25px;
+    }
+
+    .contact form input,
+    .contact form textarea {
+        width: 100%;
+    }
+
+    .contact {
+        padding-top: 20px;
+    }
+
+    .contact h1 {
+        margin-bottom: 20px;
+    }
+}
+
+/* End contact  */
